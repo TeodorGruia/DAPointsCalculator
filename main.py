@@ -14,16 +14,18 @@ def main():
     else:
         print("Not Valid!")
 
+
+
 def convert_to_points():
-    print("PLease enter the dollar amount you would like to have converted to DA points")
+    print("Please enter the dollar amount you would like to have converted to DA points")
     da_dollar = input(":: ")
-    da_points = float(da_dollar)* .80
+    da_points = float(da_dollar)* 80
     print(f"{da_dollar} in DA points is {da_points:.2f}")
 
 def convert_to_dollars():
-    print("PLease enter the DA Points amount you would like to have converted to Dollars")
+    print("Please enter the DA Points amount you would like to have converted to Dollars")
     da_points = input(":: ")
-    da_dollar = float(da_points)* .80
+    da_dollar = float(da_points)/ 80
     print(f"{da_points} DA Points in Dollars is {da_dollar:.2f}")
 
 
